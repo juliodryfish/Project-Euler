@@ -30,7 +30,7 @@ int main() {
     for(int index = 0; index < numbers.size(); ++index) {
         if(numbers[index] == true) {
             p_index++;
-            if(p_index == 10001) {
+            if(p_index == n) {
                 p_index = index;
                 break;
             }
