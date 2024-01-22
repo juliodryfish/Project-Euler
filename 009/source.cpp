@@ -32,7 +32,7 @@ int main() {
 
     for(n = 2; n < 500; ++n) {
         for(m = 2; m < 500; ++m) {
-            if(coprime(m, n) && ((m % 2 == 0 && n % 2 != 0) || (m % 2 != 0 && n % 2 == 0))) {
+            if(/*coprime(m, n) && */((m % 2 == 0 && n % 2 != 0) || (m % 2 != 0 && n % 2 == 0))) {
                 a = std::abs(std::pow(m, 2) - std::pow(n,2));
                 b = 2 * m * n;
                 c = std::pow(m, 2) + std::pow(n,2);
