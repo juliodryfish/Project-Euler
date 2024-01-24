@@ -4,6 +4,8 @@ result = 2
 #result: 142913828922
 
 #attempt at optimising sieve of Eratosthenes
+#assumed that even numbers except 2 are not prime, so half
+#of memory used
 for i in range(1, n):
     if primes[i] == 0:
         inc = (2*i) + 1
